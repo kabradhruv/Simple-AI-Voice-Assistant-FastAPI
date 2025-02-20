@@ -14,8 +14,10 @@ from pydantic import BaseModel
 import uvicorn
 from google import genai
 
-gemini_api_key = "AIzaSyCTLQxiUv8NMutxqRPyyficErChph8G5nc"
-# MONGODB_URI="mongodb+srv://kanaxiy616:tvrOfVa5Alb7Sz5i@cluster0.wm7qp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+# You can can a Google API from - https://aistudio.google.com/
+gemini_api_key = "your_api"
+# My mongo DB atlas MONGODB_URI connection string , just in case -
+# Powershell(in venv) - $env:MONGODB_URI = "mongodb+srv://kanaxiy616:tvrOfVa5Alb7Sz5i@cluster0.wm7qp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 # ------------------------------
 # Gemini API Function
